@@ -1,0 +1,1196 @@
+desc: (none)
+cmd: ./xdelta3 -e -s ../huawei-155.zip ../huawei-179.zip ../huawei-update-xdelta3
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=204043
+mem_heap_B=8388608
+mem_heap_extra_B=4040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=242377
+mem_heap_B=76875152
+mem_heap_extra_B=8208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=506673
+mem_heap_B=76875168
+mem_heap_extra_B=8216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=511411
+mem_heap_B=110432672
+mem_heap_extra_B=12264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=34065926
+mem_heap_B=143987104
+mem_heap_extra_B=16304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=67620438
+mem_heap_B=145035680
+mem_heap_extra_B=16312
+mem_stacks_B=0
+heap_tree=detailed
+n4: 145035680 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 69536896 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n3: 69536896 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n0: 2428032 in 7 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=3421523975
+mem_heap_B=145035704
+mem_heap_extra_B=16328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=3421707385
+mem_heap_B=145281800
+mem_heap_extra_B=16672
+mem_stacks_B=0
+heap_tree=detailed
+n4: 145281800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 69783016 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n3: 69783016 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n0: 2674152 in 7 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=3421851855
+mem_heap_B=145445904
+mem_heap_extra_B=16928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=3421970490
+mem_heap_B=145609960
+mem_heap_extra_B=17152
+mem_stacks_B=0
+heap_tree=detailed
+n4: 145609960 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70111176 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n3: 70111176 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n0: 3002312 in 7 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=3422164385
+mem_heap_B=145839696
+mem_heap_extra_B=17504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=3422399736
+mem_heap_B=146167856
+mem_heap_extra_B=17984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=3422583245
+mem_heap_B=146430384
+mem_heap_extra_B=18368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=3422683845
+mem_heap_B=146561648
+mem_heap_extra_B=18560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=3422825727
+mem_heap_B=146725728
+mem_heap_extra_B=18800
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=3422953674
+mem_heap_B=146955416
+mem_heap_extra_B=19120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=3423066961
+mem_heap_B=147086704
+mem_heap_extra_B=19328
+mem_stacks_B=0
+heap_tree=detailed
+n4: 147086704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 71587920 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 71587920 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n0: 2365520 in 6 places, all below massif's threshold (1.00%)
+   n1: 2113536 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 2113536 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 2048000 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 2048000 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 2048000 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 2048000 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 2048000 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 2048000 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 2048000 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 2048000 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=3423218585
+mem_heap_B=147250784
+mem_heap_extra_B=19568
+mem_stacks_B=0
+heap_tree=detailed
+n4: 147250784 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 71752000 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 71752000 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n0: 2365760 in 6 places, all below massif's threshold (1.00%)
+   n1: 2277376 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 2277376 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 2211840 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 2211840 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 2211840 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 2211840 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 2211840 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 2211840 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 2211840 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 2211840 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=3423330293
+mem_heap_B=147382048
+mem_heap_extra_B=19760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=3423463050
+mem_heap_B=147546128
+mem_heap_extra_B=20000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=3423643069
+mem_heap_B=147759432
+mem_heap_extra_B=20312
+mem_stacks_B=0
+heap_tree=detailed
+n4: 147759432 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72260648 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 72260648 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 2785280 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 2785280 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 2719744 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 2719744 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 2719744 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 2719744 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 2719744 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 2719744 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 2719744 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 2719744 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2366504 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=3423846472
+mem_heap_B=147989144
+mem_heap_extra_B=20648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=3423972984
+mem_heap_B=148136816
+mem_heap_extra_B=20864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=3424089833
+mem_heap_B=148284488
+mem_heap_extra_B=21080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=3424285147
+mem_heap_B=148432160
+mem_heap_extra_B=21296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=3424516252
+mem_heap_B=148481384
+mem_heap_extra_B=21368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=3424673006
+mem_heap_B=148629056
+mem_heap_extra_B=21584
+mem_stacks_B=0
+heap_tree=detailed
+n4: 148629056 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73130272 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 73130272 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 3653632 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 3653632 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 3588096 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 3588096 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 3588096 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 3588096 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 3588096 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 3588096 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 3588096 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 3588096 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2367776 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=3424782786
+mem_heap_B=148743912
+mem_heap_extra_B=21752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3424925471
+mem_heap_B=148891584
+mem_heap_extra_B=21968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=3425126843
+mem_heap_B=149121296
+mem_heap_extra_B=22304
+mem_stacks_B=0
+heap_tree=detailed
+n4: 149121296 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73622512 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 73622512 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 4145152 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 4145152 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 4079616 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 4079616 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 4079616 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 4079616 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 4079616 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 4079616 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 4079616 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 4079616 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2368496 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=3425254910
+mem_heap_B=149268968
+mem_heap_extra_B=22520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=3425421369
+mem_heap_B=149449456
+mem_heap_extra_B=22784
+mem_stacks_B=0
+heap_tree=detailed
+n4: 149449456 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73950672 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 73950672 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 4472832 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 4472832 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 4407296 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 4407296 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 4407296 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 4407296 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 4407296 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 4407296 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 4407296 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 4407296 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2368976 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=3425524291
+mem_heap_B=149580720
+mem_heap_extra_B=22976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3425666732
+mem_heap_B=149794024
+mem_heap_extra_B=23288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=3425826888
+mem_heap_B=150023736
+mem_heap_extra_B=23624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3425933061
+mem_heap_B=150155000
+mem_heap_extra_B=23816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3426105688
+mem_heap_B=150351896
+mem_heap_extra_B=24104
+mem_stacks_B=0
+heap_tree=detailed
+n4: 150351896 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 74853112 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 74853112 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 5373952 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 5373952 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 5308416 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 5308416 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 5308416 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 5308416 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 5308416 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 5308416 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 5308416 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 5308416 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2370296 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=3426226721
+mem_heap_B=150483160
+mem_heap_extra_B=24296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3426418377
+mem_heap_B=150712872
+mem_heap_extra_B=24632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3426642633
+mem_heap_B=151008216
+mem_heap_extra_B=25064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3426811984
+mem_heap_B=151221520
+mem_heap_extra_B=25376
+mem_stacks_B=0
+heap_tree=detailed
+n4: 151221520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 75722736 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 75722736 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 6242304 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 6242304 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 6176768 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 6176768 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 6176768 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 6176768 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 6176768 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 6176768 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 6176768 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 6176768 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2371568 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=3426998607
+mem_heap_B=151467640
+mem_heap_extra_B=25736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=3427129574
+mem_heap_B=151680944
+mem_heap_extra_B=26048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3427293523
+mem_heap_B=151910656
+mem_heap_extra_B=26384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3427456428
+mem_heap_B=152156776
+mem_heap_extra_B=26744
+mem_stacks_B=0
+heap_tree=detailed
+n4: 152156776 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 76657992 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 76657992 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 7176192 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 7176192 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 7110656 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 7110656 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 7110656 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 7110656 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 7110656 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 7110656 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 7110656 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 7110656 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2372936 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=3427678933
+mem_heap_B=152452120
+mem_heap_extra_B=27176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3427798230
+mem_heap_B=152616200
+mem_heap_extra_B=27416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=3427991447
+mem_heap_B=152862320
+mem_heap_extra_B=27776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=3428140572
+mem_heap_B=153092032
+mem_heap_extra_B=28112
+mem_stacks_B=0
+heap_tree=detailed
+n4: 153092032 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 77593248 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 77593248 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 8110080 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 8110080 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 8044544 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n1: 8044544 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 8044544 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 8044544 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 8044544 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 8044544 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 8044544 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 8044544 0x10B1A1: main (xdelta3-main.h:3912)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2374304 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=3428195030
+mem_heap_B=153108440
+mem_heap_extra_B=28136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=3428205959
+mem_heap_B=153124848
+mem_heap_extra_B=28160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=3428221894
+mem_heap_B=153141256
+mem_heap_extra_B=28184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=3428235368
+mem_heap_B=153157664
+mem_heap_extra_B=28208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=3428246016
+mem_heap_B=153174072
+mem_heap_extra_B=28232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=3428256223
+mem_heap_B=153190480
+mem_heap_extra_B=28256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=6189274931
+mem_heap_B=153206888
+mem_heap_extra_B=28280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=6189287826
+mem_heap_B=153223296
+mem_heap_extra_B=28304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=6189301346
+mem_heap_B=153239704
+mem_heap_extra_B=28328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=6189317871
+mem_heap_B=153256112
+mem_heap_extra_B=28352
+mem_stacks_B=0
+heap_tree=detailed
+n4: 153256112 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 77757328 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 77757328 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 8273920 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 8273920 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 8208384 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n2: 8208384 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 8192000 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 8192000 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 8192000 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 8192000 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 8192000 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 8192000 0x10B1A1: main (xdelta3-main.h:3912)
+       n0: 16384 in 1 place, below massif's threshold (1.00%)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2374544 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=6189334146
+mem_heap_B=153272520
+mem_heap_extra_B=28376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=6189350671
+mem_heap_B=153288928
+mem_heap_extra_B=28400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=6189364446
+mem_heap_B=153305336
+mem_heap_extra_B=28424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=6189379536
+mem_heap_B=153321744
+mem_heap_extra_B=28448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=6189396093
+mem_heap_B=153338152
+mem_heap_extra_B=28472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=6189412618
+mem_heap_B=153354560
+mem_heap_extra_B=28496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=8956546232
+mem_heap_B=153370968
+mem_heap_extra_B=28520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=11725100918
+mem_heap_B=153387376
+mem_heap_extra_B=28544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=17484039511
+mem_heap_B=153403784
+mem_heap_extra_B=28568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=483247843944
+mem_heap_B=153420168
+mem_heap_extra_B=28576
+mem_stacks_B=0
+heap_tree=peak
+n4: 153420168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 77921384 0x11ACF0: main_malloc1 (xdelta3-main.h:430)
+  n4: 77921384 0x11ACF0: main_alloc (xdelta3-main.h:456)
+   n1: 33554432 0x10EDDC: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EDDC: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3586)
+      n1: 33554432 0x10EDDC: xd3_string_match_init (xdelta3.c:3553)
+       n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+        n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+         n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+          n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 33554432 0x10EE44: xd3_alloc (xdelta3.c:1468)
+    n1: 33554432 0x10EE44: xd3_alloc0 (xdelta3.c:1504)
+     n1: 33554432 0x10EE44: xd3_string_match_init (xdelta3.c:3561)
+      n1: 33554432 0x116907: xd3_string_match_faster (xdelta3.c:4594)
+       n1: 33554432 0x115742: xd3_encode_input (xdelta3.c:3227)
+        n1: 33554432 0x11EB35: main_input (xdelta3-main.h:3201)
+         n0: 33554432 0x10B1A1: main (xdelta3-main.h:3912)
+   n1: 8437760 0x111429: xd3_alloc (xdelta3.c:1468)
+    n2: 8437760 0x111429: xd3_alloc_output (xdelta3.c:1535)
+     n1: 8372224 0x11293C: xd3_emit_bytes (xdelta3.c:1237)
+      n2: 8372224 0x11293C: xd3_iopt_finish_encoding (xdelta3.c:2249)
+       n1: 8290304 0x112E19: xd3_iopt_add (xdelta3.c:2311)
+        n1: 8290304 0x112E19: xd3_iopt_add_encoding (xdelta3.c:2326)
+         n1: 8290304 0x112E19: xd3_iopt_flush_instructions (xdelta3.c:2508)
+          n1: 8290304 0x11575E: xd3_encode_input (xdelta3.c:3240)
+           n1: 8290304 0x11EB35: main_input (xdelta3-main.h:3201)
+            n0: 8290304 0x10B1A1: main (xdelta3-main.h:3912)
+       n0: 81920 in 1 place, below massif's threshold (1.00%)
+     n0: 65536 in 1 place, below massif's threshold (1.00%)
+   n0: 2374760 in 6 places, all below massif's threshold (1.00%)
+ n1: 67108864 0x11C629: main_malloc1 (xdelta3-main.h:430)
+  n1: 67108864 0x11C629: main_bufalloc (xdelta3-main.h:439)
+   n1: 67108864 0x11C629: main_set_source.constprop.0 (xdelta3-blkcache.h:146)
+    n1: 67108864 0x11EA13: main_input (xdelta3-main.h:3133)
+     n0: 67108864 0x10B1A1: main (xdelta3-main.h:3912)
+ n1: 8388608 0x11E97B: main_malloc1 (xdelta3-main.h:430)
+  n1: 8388608 0x11E97B: main_bufalloc (xdelta3-main.h:439)
+   n1: 8388608 0x11E97B: main_input (xdelta3-main.h:3102)
+    n0: 8388608 0x10B1A1: main (xdelta3-main.h:3912)
+ n0: 1312 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=483247848685
+mem_heap_B=82951104
+mem_heap_extra_B=19008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=483247853461
+mem_heap_B=81884608
+mem_heap_extra_B=17464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=483247858231
+mem_heap_B=80834472
+mem_heap_extra_B=15912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=483247863007
+mem_heap_B=79767976
+mem_heap_extra_B=14368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=483247867777
+mem_heap_B=78717840
+mem_heap_extra_B=12816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=483247872553
+mem_heap_B=77651344
+mem_heap_extra_B=11272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=483247877323
+mem_heap_B=76601208
+mem_heap_extra_B=9720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=483247882099
+mem_heap_B=75534712
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
